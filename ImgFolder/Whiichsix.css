@@ -1,0 +1,85 @@
+@media(max-width: 766px){
+    nav{
+        display: none;
+    }
+    .content img{
+        display: none;
+    }
+    .textOnPhoto{
+        display: none;
+    }
+    .headLine{
+        display: none;
+    }
+    .content2{
+        display: none;
+    }
+    .Blog1{
+        display: none;
+    }
+    .secentChild1{
+        display: none;
+    }
+    .secentChild2{
+        display: none;
+    }
+    .secentChild{
+        display: none;
+    }
+    .imgdiv{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
+@media(max-width: 766px){
+    .svgcontrol{
+        /* display: block; */
+       }
+       .toggle-btn{
+        /* position: fixed; */
+        float: right;
+        margin-right: 5px;
+        margin-top: 17px;
+        display: block;
+       }
+       .material-symbols-outlined{
+        display: none;
+       }
+       .bx-x{
+        display: none;
+       }
+        .Darkicon{
+            display: none;
+        }
+        .material-symbols-outlined{
+            display: none;
+        }
+        .bx-chevron-down{
+            display: none;
+        }
+        .bx-search{
+            display: none;
+        }
+        .secentImg1{
+            /* display: block; */
+        }
+        .Mmimg{
+            /* display: block; */
+        }
+        .Xximg{
+            /* display: block; */
+        }
+        .gihtimg{
+            /* display: block; */
+        }
+        .wifiimg{
+            /* display: block; */
+        }
+        .mozimg{
+            /* display: block; */
+        }
+}
+
+

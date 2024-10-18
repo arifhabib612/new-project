@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            margin-top: 2vh;
+        }
+        :root{
+            ---formBackground-color:#FFFFFF;
+            ---h1AndChildText-color:#000000;
+            ---plecholder-color:#FFFFFF;
+            ---submitButtonBr-color: #0060DF;
+            ---orTextAndLine-color:#8F8F9D;
+            ---FormEndLine-color:#5E5E72;
+            ---AppleAndGoolgeFont-color:#0c0c0D;;
+        }
+        form{
+            width: 480px;
+            height: 535px;
+            background-color: #FFFFFF;
+            position: relative;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        form::before{
+            content: '';
+            position: absolute;
+            width: 485px;
+            height: 537px;
+            background-color: var(---FormEndLine-color);
+            filter: blur(8px);
+            z-index: -1;
+        }
+        .columen{
+            min-width: 485px;
+            height: 537px;
+            /* background-color: #00ff44; */
+        }
+        .columen h1{
+            position: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            font-size: 22px;
+            padding-top: 35px;
+        }
+        .columen p{
+            position: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+        input{
+            width: 414px;
+            height: 50px;
+            border-radius: 7px;
+            outline: none;
+            border: none;
+            margin-bottom: 5px;
+            background-color: var(---plecholder-color);
+            padding-left: 10px;
+        }
+        input[type="text"]{
+            border: 1px solid rgb(167, 167, 167);
+            margin-bottom: 20px;
+        }
+        input::placeholder{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            font-size: 16px;
+        }
+        input[type="submit"]{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: var(---submitButtonBr-color);
+            color: var(---plecholder-color);
+            width: 426px;
+            height: 57px;
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+        span{
+           color: var(---orTextAndLine-color);
+           position: relative;
+           margin: 0 auto;
+        }
+        span::before{
+            content: '';
+            position: absolute;
+            top: 13px;
+            left: -203px;
+            width: 200px;
+            height: 0.5px;
+            background-color: var(---orTextAndLine-color);
+        }
+        span::after{
+            content: '';
+            position: absolute;
+            top: 13px;
+            left: 15px;
+            width: 200px;
+            height: 0.5px;
+            background-color: var(---orTextAndLine-color);
+        }
+    
+        .placholder{
+            width: 99%;
+            height: fit-content;
+            padding-top: 30px;
+            /* background-color: aquamarine; */
+            display: grid;
+            justify-content: center;
+        }
+        .btnControl{
+            width: 99%;
+            height: fit-content;
+            /* background-color: aqua; */
+        }
+        .btnControl button{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            display: flex;
+            margin: 0 auto;
+            width: 414px;
+            height: 48px;
+            background-color: var(---plecholder-color);
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            border: 1px solid rgb(210, 210, 210);
+            margin-top: 13px;
+        }
+        .btnControl button:hover{
+            border: 1px solid black;
+        }
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            user-select: none;
+        }
+        button i{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            font-size: 22px; 
+            margin-top: 0px;  
+        }
+        button p{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            font-size: 22px;
+        }
+        .formUnder{
+            width: 99%;
+            height: fit-content;
+            /* background-color: aquamarine; */
+            margin-top: 30px;
+            color: var(---FormEndLine-color);
+        }
+        .formUnder p{
+            font-size: 12px;
+        }
+        .formUnder a{
+            color: var(---FormEndLine-color);
+            font-size: 12px;
+        }
+        .formUnder a:hover{
+            color: var(---submitButtonBr-color);
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="columen">
+        <h1>Enter your email</h1>
+        <p>Continue to MDN Plus</p>
+        <div class="placholder">
+        <input type="text" placeholder="Enter your email">
+        <input type="submit" value="Sign up or sign in">
+        <span>or</span>
+    </div>
+    <div class="btnControl">
+        <button><img src="./ImgFolder/7123025_logo_google_g_icon.png" alt="img" width="25px"><p>Continue With Google</p></button>
+        <button><i class='bx bxl-apple'></i><p>Continue with Apple</p></button>
+    </div>
+    <div class="formUnder">
+        <p>By proceeding, you agree to the '<a href="/legal/terms">Terms of Service</a>
+            ' and '
+            <a href="/legal/privacy">Privacy Notice.</a></p>
+    </div>
+    </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,2295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<title>Document</title>
+<link rel="stylesheet" href="Whiichsix.css">
+
+<style>
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+position: 0;
+margin: 0;
+}
+body::-webkit-scrollbar{
+background-color: #5c5c5c;
+}
+body::-webkit-scrollbar-thumb{
+background-color: #a9a9a9;
+}
+p,span, h5{
+padding: 0;
+margin: 0;
+        }
+:root{
+---firstHovar-color: #EFF7FE; 
+---firstHovarText-color: #008FF2;
+---HovarOutText-color: #AAAAAA; 
+---secendHovar-color: #F9F9FB;
+---FirstColumnLine-color: #D30038; 
+---SecendColumnLine-color: #0069C2;
+---ThartColumnLine-color: #AFA100;
+---FhorColumnLine-color: #007936;
+---FiveColumnLine-color: #872BFF;
+---SixAndSevenColumnLine-color: #696969;
+        }
+
+.Intellgent{
+width: 300px;
+height: fit-content;
+background-color: white;
+display: block;
+/* border: 1px solid black; */
+margin-top: 33px;
+margin-left: 0px;
+position: absolute;
+border-radius: 4px;
+overflow-x:scroll;
+/* overflow-y: hidden;
+scrollbar-width:none; */
+}
+.Intellgent::before{
+content: '';
+position: absolute;
+width: 310px;
+height: 560px;
+top: -4px;
+left: -5px;
+background-color: #696969;
+opacity: 0.4;
+z-index: -1;
+border-radius: 4px;
+filter: blur(1.1px);
+}
+.Intellgent{
+display: none;
+}
+.Resiv:hover .Intellgent{
+display: block;
+}
+.Resiv{
+padding: 0;
+margin: 0;
+}
+.Honest{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FirstColumnLine-color);
+z-index: 100;
+}
+.Honest1{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest1::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SecendColumnLine-color);
+z-index: 100;
+}
+.Honest1:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest2{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest2::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---ThartColumnLine-color);
+z-index: 100;
+}
+.Honest2:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest3{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest3::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FhorColumnLine-color);
+z-index: 100;
+}
+.Honest3:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest4{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest4::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FiveColumnLine-color);
+z-index: 100;
+}
+.Honest4:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest5{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest5::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest5:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest6{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest6::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest6:hover{
+background-color: var(---secendHovar-color);
+}
+
+h5{
+line-height: 20px;
+}
+span{
+font-size: 12px;
+margin-top: 10px;
+}
+p,span, h5{
+padding: 0;
+margin: 0;
+        }
+:root{
+---firstHovar-color: #EFF7FE; 
+---firstHovarText-color: #008FF2;
+---HovarOutText-color: #AAAAAA; 
+---secendHovar-color: #F9F9FB;
+---FirstColumnLine-color: #D30038; 
+---SecendColumnLine-color: #0069C2;
+---ThartColumnLine-color: #AFA100;
+---FhorColumnLine-color: #007936;
+---FiveColumnLine-color: #872BFF;
+---SixAndSevenColumnLine-color: #696969;
+        }
+.Intellgent1{
+width: 300px;
+height: fit-content;
+background-color: white;
+display: block;
+/* border: 1px solid black; */
+margin-top: 33px;
+margin-left: 0px;
+position: absolute;
+border-radius: 4px;
+/* overflow-y: hidden;
+scrollbar-width:none; */
+}
+.Intellgent1::before{
+content: '';
+position: absolute;
+width: 310px;
+height: 497px;
+top: -4px;
+left: -5px;
+background-color: #696969;
+opacity: 0.4;
+z-index: -1;
+border-radius: 4px;
+filter: blur(1.1px);
+}
+.Intellgent1{
+display: none;
+}
+.Resiv1:hover .Intellgent1{
+display: block;
+}
+.Resiv1{
+padding: 0;
+margin: 0;
+}
+.Honest{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FirstColumnLine-color);
+z-index: 100;
+}
+.Honest1{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest1::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SecendColumnLine-color);
+z-index: 100;
+}
+.Honest1:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest2{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest2::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---ThartColumnLine-color);
+z-index: 100;
+}
+.Honest2:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest3{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest3::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FhorColumnLine-color);
+z-index: 100;
+}
+.Honest3:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest4{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest4::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FiveColumnLine-color);
+z-index: 100;
+}
+.Honest4:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest5{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest5::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest5:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest6{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest6::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest6:hover{
+background-color: var(---secendHovar-color);
+}
+
+h5{
+line-height: 20px;
+}
+span{
+font-size: 12px;
+margin-top: 10px;
+}
+p,span, h5{
+padding: 0;
+margin: 0;
+        }
+:root{
+---firstHovar-color: #EFF7FE; 
+---firstHovarText-color: #008FF2;
+---HovarOutText-color: #AAAAAA; 
+---secendHovar-color: #F9F9FB;
+---FirstColumnLine-color: #D30038; 
+---SecendColumnLine-color: #0069C2;
+---ThartColumnLine-color: #AFA100;
+---FhorColumnLine-color: #007936;
+---FiveColumnLine-color: #872BFF;
+---SixAndSevenColumnLine-color: #696969;
+        }
+
+.Intellgent2{
+width: 300px;
+height: fit-content;
+background-color: white;
+display: block;
+/* border: 1px solid black; */
+margin-top: 33px;
+margin-left: 0px;
+position: absolute;
+border-radius: 4px;
+/* overflow-y: hidden;
+scrollbar-width:none; */
+}
+.Intellgent2::before{
+content: '';
+position: absolute;
+width: 310px;
+height: 416px;
+top: -4px;
+left: -5px;
+background-color: #696969;
+opacity: 0.4;
+z-index: -1;
+border-radius: 4px;
+filter: blur(1.1px);
+}
+.Intellgent2{
+display: none;
+}
+.Resiv2:hover .Intellgent2{
+display: block;
+}
+.Resiv2{
+padding: 0;
+margin: 0;
+}
+.Honest{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FirstColumnLine-color);
+z-index: 100;
+}
+.Honest1{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest1::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SecendColumnLine-color);
+z-index: 100;
+}
+.Honest1:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest2{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest2::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---ThartColumnLine-color);
+z-index: 100;
+}
+.Honest2:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest3{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest3::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FhorColumnLine-color);
+z-index: 100;
+}
+.Honest3:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest4{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest4::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FiveColumnLine-color);
+z-index: 100;
+}
+.Honest4:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest5{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest5::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest5:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest6{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest6::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest6:hover{
+background-color: var(---secendHovar-color);
+}
+
+h5{
+line-height: 20px;
+}
+span{
+font-size: 12px;
+margin-top: 10px;
+}
+p,span, h5{
+padding: 0;
+margin: 0;
+        }
+:root{
+---firstHovar-color: #EFF7FE; 
+---firstHovarText-color: #008FF2;
+---HovarOutText-color: #AAAAAA; 
+---secendHovar-color: #F9F9FB;
+---FirstColumnLine-color: #D30038; 
+---SecendColumnLine-color: #0069C2;
+---ThartColumnLine-color: #AFA100;
+---FhorColumnLine-color: #007936;
+---FiveColumnLine-color: #872BFF;
+---SixAndSevenColumnLine-color: #696969;
+        }
+.Intellgent3{
+width: 300px;
+height: fit-content;
+background-color: white;
+display: block;
+/* border: 1px solid black; */
+margin-top: 33px;
+margin-left: 0px;
+position: absolute;
+border-radius: 4px;
+/* overflow-y: hidden;
+scrollbar-width:none; */
+}
+.Intellgent3::before{
+content: '';
+position: absolute;
+width: 310px;
+height: 416px;
+top: -4px;
+left: -5px;
+background-color: #696969;
+opacity: 0.4;
+z-index: -1;
+border-radius: 4px;
+filter: blur(1.1px);
+}
+.Intellgent3{
+display: none;
+}
+.Resiv3:hover .Intellgent3{
+display: block;
+}
+.Resiv3{
+padding: 0;
+margin: 0;
+}
+.Honest{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FirstColumnLine-color);
+z-index: 100;
+}
+.Honest1{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest1::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SecendColumnLine-color);
+z-index: 100;
+}
+.Honest1:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest2{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest2::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---ThartColumnLine-color);
+z-index: 100;
+}
+.Honest2:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest3{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest3::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FhorColumnLine-color);
+z-index: 100;
+}
+.Honest3:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest4{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest4::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---FiveColumnLine-color);
+z-index: 100;
+}
+.Honest4:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest5{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest5::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest5:hover{
+background-color: var(---secendHovar-color);
+}
+.Honest6{
+width: 300px;
+height: fit-content;
+/* background-color: var(---secendHovar-color); */
+border-radius: 4px;
+padding: 5px 20px;
+box-sizing: border-box;
+position: relative;
+user-select: none;
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.Honest6::after{
+content: '';
+position: absolute;
+top: 20px;
+left: 10px;
+width: 3px;
+height: 50%;
+background-color: var(---SixAndSevenColumnLine-color);
+z-index: 100;
+}
+.Honest6:hover{
+background-color: var(---secendHovar-color);
+}
+h5{
+line-height: 20px;
+}
+span{
+font-size: 12px;
+margin-top: 10px;
+}
+#mdn-docs-logo{
+width: 90px;
+float: left;
+/* margin-top: 5px; */
+margin-left: -30px;
+/* padding-right: 100px; */        
+}
+header nav{
+            width: 100%;
+            height: 60px;
+            /* display: flex; */
+            position: fixed;
+            z-index: 100;
+            /* top: 0; */
+            background-color: rgb(170, 117, 219);
+            /* position: absolute; */
+            /* position: relative;
+            position: sticky;
+            top: 0; */ 
+        }
+        /* nav::after{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: #000000;
+            top: 61px;
+            left: 0;
+            z-index: -1;
+            position: sticky;
+            top: 0;
+
+        } */
+        header nav ul{
+            display: flex;   
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        header nav ul li{
+            list-style: none;
+            
+        }
+        header nav ul li a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        header nav li:hover{
+            border-radius: 4px;
+        }
+        header nav li:hover a{
+            background-color:#4C5E7E;
+            color: rgb(0, 123, 231);
+            border-radius: 4px;
+        }
+
+.search-container {
+  position: relative;
+  width: 100px;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 7px;
+  transition: width 0.4s ease;
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: none;
+  margin-top: -3px;
+  margin-left: 10px;
+  position: absolute;
+}
+#search-bar::placeholder{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+#search-bar.expanded {
+  width: 200px; 
+}
+/* বড় হওয়ার সময় প্রস্থ */
+.LogIn{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: #872BFF; */
+    margin-left: 110px;
+    font-size: 22px;
+    cursor: pointer;
+    user-select: none;
+}
+.LogIn h5 a{
+    text-decoration: none;
+    color: white;
+    margin-top: -1px;
+    position: absolute;
+}
+
+.lastBtn{
+    width: fit-content;
+    height: fit-content;
+    font-size: 13px;
+    margin-left: 60px;
+    margin-top: -1px; 
+}
+
+.lastBtn a{
+    text-decoration: none;
+    color: black;
+}
+.content img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+margin-top: 60px;
+}
+.textOnPhoto{
+    width: 50%;
+    height: 300px;
+    /* background-color: #007936; */
+    /* position:absolute; */
+    color: white;
+    margin-top: -500px;
+    margin-left: 100px;
+    /* position: relative;
+    max-width: 300px;
+    margin: 20px auto; */
+}
+.textOnPhoto h2{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textOnPhoto a{
+    color:#58ff04;
+}
+.search-icon{
+    position: absolute;
+    top: 283px;
+    left: 855px;
+}
+.SearchOnImg{
+    width: 500px;
+    height: 60px;
+    outline: none;
+    box-sizing: border-box;
+    padding-right: 45px;
+    border-radius: 50px;
+    background-color: #000000;
+    margin-top: 50px;
+    margin-left: 300px;
+    opacity: 0.7;
+    position: relative;
+}
+.SearchOnImg[type="search"]{
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.SearchOnImg::placeholder{
+    color: white;
+}
+.content2{
+    width: 100%;
+    height: 1650px;
+    background: #fefefe;
+    margin-top: -40px;
+}
+.headLine{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: cadetblue; */
+    margin-left: 265px;
+    padding-top: 25px;
+}
+.headLine h1{
+    font-size: 25px;  
+}
+.AllBlogStorag{
+    width: 60%;
+    height: 250px;
+    /* background-color: #AA75DB; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Blog1{
+    width:360px;
+    height: 250px;
+    background-color: #d9d9d9;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    border-radius: 7px;
+    margin: 5px;
+}
+.Blog1 h3{
+    font-size: 16px;
+}
+.Blog1 h1{
+    font-size: 16px;
+}
+.Blog1 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.secent{
+    width: 60%;
+    height: 250px;
+    /* background-color: #AA75DB; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.Blog2{
+    width:720px;
+    height: 50px;
+    background-color: #d7d7d7;
+    box-sizing: border-box;
+    /* padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 5px; */
+    padding-left: 10px;
+    border-radius: 4px;
+    margin: 5px;
+}
+.Blog2 h3{
+    padding: 0;
+    margin: 0;
+    color: rgb(32, 32, 32);
+    font-family: 500;
+    font-size: 16px;
+}
+.Blog2 a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(---SixAndSevenColumnLine-color);
+    margin-top: -30px;
+    font-size: 13px;
+}
+.Blog2 .timar{
+ width: fit-content;
+ height: fit-content;
+ /* background-color: var(---firstHovarText-color); */
+ float: right;
+ margin-top: -15px;  
+ margin-right: 15px;
+}
+.timar text{
+    font-size: 13px;
+    color: var(---SixAndSevenColumnLine-color);
+}
+.secentChild{
+    width: 60%;
+    height: 250px;
+    /* background-color: #AA75DB; */
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Blog3{
+    width:720px;
+    height: 50px;
+    /* background-color: #e2e2e2; */
+    box-sizing: border-box;
+    /* padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 5px; */
+    padding-left: 10px;
+    border-radius: 4px;
+    margin-top: -60px;
+    margin-left: 5px;
+
+}
+.Blog3 h3{
+    padding: 0;
+    margin: 0;
+    color: rgb(32, 32, 32);
+    font-family: 500;
+    font-size: 16px;
+}
+.Blog3 a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(---SixAndSevenColumnLine-color);
+    margin-top: -30px;
+    font-size: 13px;
+}
+.Blog3 .timar{
+ width: fit-content;
+ height: fit-content;
+ /* background-color: var(---firstHovarText-color); */
+ float: right;
+ margin-top: -15px;  
+ margin-right: 15px;
+}
+.timar text{
+    font-size: 13px;
+    color: var(---SixAndSevenColumnLine-color);
+}
+.Blog4{
+    width:720px;
+    height: 50px;
+    background-color: #e2e2e2;
+    box-sizing: border-box;
+    /* padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 5px; */
+    padding-left: 10px;
+    border-radius: 4px;
+    margin-top: -65px;
+    margin-left: 5px;
+
+}
+.Blog4 h3{
+    padding: 0;
+    margin: 0;
+    color:  rgb(32, 32, 32);
+    font-family: 500;
+    font-size: 16px;
+}
+.Blog4 a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(---SixAndSevenColumnLine-color);
+    margin-top: -30px;
+    font-size: 13px;
+}
+.Blog4 .timar{
+ width: fit-content;
+ height: fit-content;
+ /* background-color: var(---firstHovarText-color); */
+ float: right;
+ margin-top: -0px;  
+ margin-right: 15px;
+}
+.timar text{
+    font-size: 13px;
+    color: var(---SixAndSevenColumnLine-color);
+}
+.secentChild1{
+    width: 60%;
+    height: 250px;
+    /* background-color: #AA75DB; */
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -75px;
+}
+.secentChild2{
+    width: 60%;
+    height: 250px;
+    /* background-color: #AA75DB; */
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: -120px;
+}
+.Blog5{
+    width:720px;
+    height: 50px;
+    background-color: #e2e2e2;
+    box-sizing: border-box;
+    /* padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 5px; */
+    padding-left: 10px;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.Blog5 h3{
+    padding: 0;
+    margin: 0;
+    color:  rgb(32, 32, 32);
+    font-family: 500;
+    font-size: 16px;
+}
+.Blog5 a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(---SixAndSevenColumnLine-color);
+    margin-top: -30px;
+    font-size: 13px;
+}
+.Blog5 .timar{
+ width: fit-content;
+ height: fit-content;
+ /* background-color: var(---firstHovarText-color); */
+ float: right;
+ margin-top: -0px;  
+ margin-right: 15px;
+}
+.timar text{
+    font-size: 13px;
+    color: var(---SixAndSevenColumnLine-color);
+}
+.imgdiv{
+            width: 100%;
+            height: 350px;
+            background-color: #58ff04;
+           
+        }
+        .imgdiv img{
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+        .OnTheimg h1{
+            /* width: 100%;
+            height: 350px;
+            background-color: #58ff04; */
+            position: absolute;
+            top: 2000px;
+            left: 200px;
+            font-size: 22px;
+            font-weight: 500;
+            color: white;
+        }
+        .OnTheimg button{
+            position: absolute;
+            top: 2050px;
+            left: 200px;
+            font-size: 22px;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+        }
+        .OnTheimg button a{
+            color: black;
+            text-decoration: none;
+        }
+        .OnTheimg button a:hover{
+            text-decoration: underline;
+        }
+        .OnTheimg p{
+            width: 350px;
+            height: fit-content;
+            /* background-color: #0069C2; */
+            position: absolute;
+            top: 2085px;
+            left: 200px;
+            font-size: 22px;
+            /* font-weight: 500; */
+            color: rgb(196, 196, 196);
+            font-size: 16px;
+        }
+        .OnTheimg span{
+            position: absolute;
+            top: 2250px;
+            left: 200px;
+            font-size: 22px;
+            color:#6bbaff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .OnTheimg span:hover{
+            text-decoration: underline;
+        }
+        .OnTheimg .secentImg{
+            width: 300px;
+            height: fit-content;
+            position: absolute;
+            top: 2050px;
+            left: 900px;
+            font-size: 22px;
+            color:#6bbaff;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        footer{
+            width: 100%;
+            height: 350px;
+            /* background-color: red; */
+        }
+        .firstDiv{
+            width: 100%;
+            height: 175px;
+            /* background-color: rgb(170, 117, 219); */
+            border-bottom: 1px solid black;
+        }
+        .svgandothers{
+            width: 300px;
+            height: 175px;
+            /* background-color: yellow;  */
+        }
+        .svgandothers svg{
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .svgandothers h1{
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .svgandothers .iconLine{
+            width: 300px;
+            height: 50px;
+            /* background-color: #696969; */
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+        .svgandothers .iconLine img{
+            margin: 7px;
+        }
+        .texLine{
+            width: 700px;
+            height: 175px;
+            /* background-color: #007936; */
+            margin-top: -175px;
+            margin-left: 300px;
+        }
+        .texLine .firstPre{
+            width: 150px;
+            height: 155px;
+            /* background-color: #6b9ac3; */
+            padding-top: 20px;   
+            margin-left: 30px;  
+            line-height: 30px; 
+            margin-top: 0px;
+            position: absolute;
+            display: inline-block;     
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        }
+        .texLine .secentPre{
+            width: 150px;
+            height: 155px;
+            /* background-color: #0069C2; */
+            margin-top: 0;
+            position: absolute;
+            padding-top: 20px;   
+            margin-left: 260px;  
+            line-height: 30px;  
+            display: inline-block;     
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        }
+        .texLine .thartPre{
+            width: 150px;
+            height: 155px;
+            /* background-color: #0069C2; */
+            position: absolute;
+            padding-top: 20px;   
+            margin-left: 500px;  
+            margin-top: -0px;
+            line-height: 30px;  
+            display: inline-block;     
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        }
+        .texLine .ForPre{
+            width: 200px;
+            height: 155px;
+            /* background-color: #0069C2; */
+            position: absolute;
+            padding-top: 20px;   
+            margin-left: 700px;  
+            margin-top: -0px;
+            line-height: 30px;  
+            display: inline-block;     
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        }
+        .LastItem{
+            width: 100%;
+            height: 175px;
+            /* background-color: #58ff04; */
+        }
+        .LastItem img{
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+        .LastItem p{
+            margin-left: 130px;
+            margin-top: -25px;
+            font-size: 12px;
+        }
+        .LastItem .lestText{
+            width: fit-content;
+            height: fit-content;
+            /* background-color: #0069C2; */
+            margin-left: 10px;
+            margin-top: 20px;
+            font-size: 12px;
+            /* font-weight: 500; */
+        }
+        .night{
+    width: 100px;
+    height:30px;
+    background-color:#AA75DB;
+    display: flex;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 4px;
+    /* border: 1px solid black; */
+    user-select: none;
+    color: white;
+    /* margin-left: 255px; */
+    margin-top: -1px;
+}
+.night:hover{
+    background-color: rgb(55, 55, 55);
+    opacity: 5;
+    cursor: pointer;
+}
+.night #lightMode{
+    font-size: 18px;
+    margin-top: -6px;
+    margin-left: 3px;
+    font-size: 22px;
+
+}
+.night h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+.NightMode{
+    width: 120px;
+    height: 100px;
+    background-color: #313131;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    /* margin-left: 742px; */
+    /* margin-top: 30px; */
+}
+.NightMode .OsDefault{
+    width: 100%;
+    height: 30px;
+    /* background-color: #007936; */
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    
+}
+.OsDefault:hover{
+    background-color: rgb(55, 55, 55);
+    border-radius: 4px;
+    /* border: 1px solid white; */
+}
+.NightMode .OsDefault span{
+    font-size: 22px;
+    margin-top: 0px;
+    color: white;
+    margin-left: 13px;
+}
+.NightMode .OsDefault h5{
+    /* margin-top: 6px; */
+    margin-left: 5px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+.Light{
+    width: 100%;
+    height: 30px;
+    /* background-color: #AA75DB; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    display: flex;
+    align-items: center;
+}
+.Light:hover{
+    background-color: rgb(55, 55, 55);
+    border-radius: 4px;
+    /* border: 1px solid white; */
+}
+.Light span{
+    margin-top: 0px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: white;
+    margin-left: 13px;
+}
+.Light h5{
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+}
+.Dark{
+    width: 100%;
+    height: 30px;
+    /* background-color: #AFA100; */
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 5px;
+}
+.Dark:hover{
+    background-color: rgb(55, 55, 55);
+    border-radius: 4px;
+    /* border: 1px solid white; */
+}
+.Dark span{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 13px;
+}
+.Dark h5{
+    text-align: center;
+    margin-left: 10px;
+}
+.NightMode{
+    display: none;
+}
+.NightMode.Show{
+display: block;
+}
+
+    .svgcontrol{
+    display: none;
+   }
+   .toggle-btn{
+    display: none;
+   }
+   .material-symbols-outlined{
+    display: none;
+   }
+   .bx-x{
+    display: none;
+   }
+    .Darkicon{
+    display: none;
+    }
+    .material-symbols-outlined{
+        display: none;
+    }
+    .bx-chevron-down{
+        display: none;
+    }
+    .bx-search{
+        display: none;
+    }
+    .secentImg1{
+        display: none;
+    }
+    .Mmimg{
+        display: none;
+    }
+    .Xximg{
+        display: none;
+    }
+    .gihtimg{
+        display: none;
+    }
+    .wifiimg{
+        display: none;
+    }
+    .mozimg{
+        display: none;
+    }
+
+    /* @media(max-width: 766px){
+        .svgcontrol{
+        display: block;
+       }
+       .toggle-btn{
+        display: block;
+       }
+       .material-symbols-outlined{
+        display: block;
+       }
+       .sidebar2{
+        display: block;
+       }
+        .Darkicon{
+            display: block;
+        }
+        .material-symbols-outlined{
+            display: block;
+        }
+        .bx-chevron-down{
+            display: block;
+        }
+        .bx-search{
+            display: block;
+        }
+        .secentImg1{
+            display: block;
+        }
+        .Mmimg{
+            display: block;
+        }
+        .Xximg{
+            display: block;
+        }
+        .gihtimg{
+            display: block;
+        }
+        .wifiimg{
+            display: block;
+        }
+        .mozimg{
+            display: block;
+        }
+    } */
+</style>
+</head>
+<body>
+<header>
+    <div class="navBare">
+    <button id="open" class="toggle-btn" onclick="openSidebar()">☰</button>
+
+    <div id="closebtn" class="closeBtn2"">
+        <a href="#" class="CloseBtn1" onclick="CloseBtn()">✕</a>
+        <a class="numbar" href="#">block</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+        <a href="#">Trak</a>
+    </div>
+</div>
+        <nav>
+            <ul>
+                <a href="#"><svg id="mdn-docs-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 104.2" style="enable-background:new 0 0 361 104.2" xml:space="preserve" role="img"><title>MDN Web Docs</title><path d="M197.6 73.2h-17.1v-5.5h3.8V51.9c0-3.7-.7-6.3-2.1-7.9-1.4-1.6-3.3-2.3-5.7-2.3-3.2 0-5.6 1.1-7.2 3.4s-2.4 4.6-2.5 6.9v15.6h6v5.5h-17.1v-5.5h3.8V51.9c0-3.8-.7-6.4-2.1-7.9-1.4-1.5-3.3-2.3-5.6-2.3-3.2 0-5.5 1.1-7.2 3.3-1.6 2.2-2.4 4.5-2.5 6.9v15.8h6.9v5.5h-20.2v-5.5h6V42.4h-6.1v-5.6h13.4v6.4c1.2-2.1 2.7-3.8 4.7-5.2 2-1.3 4.4-2 7.3-2s5.3.7 7.5 2.1c2.2 1.4 3.7 3.5 4.5 6.4 1.1-2.5 2.7-4.5 4.9-6.1s4.8-2.4 7.9-2.4c3.5 0 6.5 1.1 8.9 3.3s3.7 5.6 3.7 10.2v18.2h6.1v5.5zm42.5 0h-13.2V66c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2s9.8 2.2 12.3 6.5V22.7h-8.6v-5.6h15.8v50.6h6v5.5zm-13.3-16.8V52c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm61.5 16.8H269v-5.5h6V51.9c0-3.7-.7-6.3-2.2-7.9-1.4-1.6-3.4-2.3-5.7-2.3-3.1 0-5.6 1-7.4 3s-2.8 4.4-2.9 7v15.9h6v5.5h-19.3v-5.5h6V42.4h-6.2v-5.6h13.6V43c2.6-4.6 6.8-6.9 12.7-6.9 3.6 0 6.7 1.1 9.2 3.3s3.7 5.6 3.7 10.2v18.2h6v5.4h-.2z" class="logo-text"></path><path d="M42 .2 13.4 92.3H1.7L30.2.2Zm10.4 0v92.1H42V.2Zm40.3 0L64.2 92.3H52.5L81 .2Zm10.4 0v92.1H92.7V.2Z" class="logo-m"></path><path d="M294 95h67v8.8h-67z" class="logo-_"></path></svg></a></li>
+                <ul class="Resiv"><li><a href="#">References</a></li>
+                <div class="Intellgent">
+                    <div class="Honest">
+                    <h5>HTML</h5>
+                    <span>Structure of content on the web</span>
+                </div>
+                <div class="Honest1">
+                    <h5>CSS</h5>
+                    <span>Code used to describe document style</span>
+                </div>
+                <div class="Honest2">
+                    <h5>JavaScript</h5>
+                    <span>General-purpose scripting language</span>
+                </div>
+                <div class="Honest3">
+                    <h5>HTTP</h5>
+                    <span>Protocol for transmitting web resources</span>
+                </div>
+                <div class="Honest4">
+                    <h5>Web APIs</h5>
+                    <span>Interfaces for building web applications</span>
+                </div>
+            
+                <div class="Honest5">
+                    <h5>Web Extensions</h5>
+                    <span>Developing extensions for web browsers</span>
+                </div>
+            
+                <div class="Honest6">
+                    <h5>Web Technology</h5>
+                    <span>Web technology reference for developers</span>
+                </div>
+                </div>
+            </ul>
+            <ul class="Resiv1"><li><a href="#">Gudes</a></li>
+                <div class="Intellgent1">
+                    <div class="Honest">
+                    <h5>MDN Learning Area</h5>
+                    <span>Learn web development</span>
+                </div>
+                <div class="Honest1">
+                    <h5>HTML</h5>
+                    <span>Learn to structure web content with HTML</span>
+                </div>
+                <div class="Honest2">
+                    <h5>CSS</h5>
+                    <span>Learn to style content using CSS</span>
+                </div>
+                <div class="Honest3">
+                    <h5>JavaScript</h5>
+                    <span>Learn to run scripts in the browser</span>
+                </div>
+                <div class="Honest4">
+                    <h5>Web APIs</h5>
+                    <span>Interfaces for building web applications</span>
+                </div>
+            
+                <div class="Honest5">
+                    <h5>Accessibility</h5>
+                    <span>Learn to make the web accessible to all</span>
+                </div>
+                </div>
+            </ul>
+                <ul class="Resiv2"><li><a href="#">Plus</a></li>
+                <div class="Intellgent2">
+                    <div class="Honest">
+                    <h5>Overview</h5>
+                    <span>A customized MDN experience</span>
+                </div>
+                <div class="Honest1">
+                    <h5>Al Help</h5>
+                    <span>Get real-time assistance and support</span>
+                </div>
+                <div class="Honest2">
+                    <h5>Updates</h5>
+                    <span>All browser compatibility updates at a glance</span>
+                </div>
+                <div class="Honest3">
+                    <h5>Documentationt</h5>
+                    <span>Learn how to use MDN Plus</span>
+                </div>
+                <div class="Honest4">
+                    <h5>FAQ</h5>
+                    <span>Frequently asked questions about MDN Plus</span>
+                </div>
+                </div>
+            </ul>
+               <li><a href="#">Curriculum</a></li>
+                <li><a href="#">Blog</a></li>
+                <ul class="Resiv3"><li><a href="#">Test</a></li>
+                <div class="Intellgent3">
+                    <div class="Honest">
+                    <h5>Overview</h5>
+                    <span>A customized MDN experience</span>
+                </div>
+                <div class="Honest1">
+                    <h5>Al Help</h5>
+                    <span>Get real-time assistance and support</span>
+                </div>
+                <div class="Honest2">
+                    <h5>Updates</h5>
+                    <span>All browser compatibility updates at a glance</span>
+                </div>
+                <div class="Honest3">
+                    <h5>Documentationt</h5>
+                    <span>Learn how to use MDN Plus</span>
+                </div>
+                <div class="Honest4">
+                    <h5>FAQ</h5>
+                    <span>Frequently asked questions about MDN Plus</span>
+                </div>
+                </div>
+            </ul>
+       
+          <!-- button-wrap Laptop scrin -->
+          <div class=" complit">
+            <div class="night" onclick="system()">
+                <span class="Arrow" id="lightMode">◐</span>
+                <h5>Theme</h5>
+            </div>
+                <form id="toggleWindow" class="NightMode" action="#">
+                    <div class="OsDefault">
+                        <span>◐</span>
+                        <h5>OS Default</h5>
+                    </div>
+        
+                    <div class="Light">
+                        <span class="material-symbols-outlined">light_mode</span>
+                            <h5>Light</h5>
+                    </div>
+        
+                    <div class="Dark">
+                        <span class="material-symbols-outlined">
+                            mode_night
+                            </span>
+                            <h5>Dark</h5>
+                    </div>
+                </form>
+            </div>
+                <div class="search-container">
+                    <input type="text" class="iCastumaiz" id="search-bar" placeholder="Search...">
+                  </div>
+                  
+                  <div class="LogIn">
+                    <h5><a href="/mdnProject/whichFive.html">Log in</a></h5>
+                  </div>
+
+                  <button class="lastBtn"><a href="/mdnProject/whichFive.html">Sign up for free</a></button>
+            </ul>           
+        </nav>
+</header>
+<div class="content">
+        <img src="Untitled.png" alt="img" width="100%">
+</div>
+<div class="textOnPhoto">
+        <h2>Resources for <a href="#">Developers,</a><br>
+        by Developers</h2>
+        <p>Documenting web technologies, including <a href="#">CSS</a>, <a href="#">HTML</a>, and <a href="#">JavaScript</a>, since 2005.
+        </p>
+        <input class="SearchOnImg" type="search">
+        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+</div>
+<div class="content2">
+        <div class="headLine">
+            <h1>Featured articles</h1>
+        </div>
+
+        <div class="AllBlogStorag">
+        <div class="Blog1">
+            <h3>Blog</h3>
+            <h1>MDN partners with Scrimba to enhance web development learning</h1>
+            <p>We have chosen Scrimba as a course partner for the MDN Curriculum. This blog post explores what the partnership means practically, and how</p>
+        </div>
+        <div class="Blog1">
+            <h3>Blog</h3>
+            <h1>Developer essentials: JavaScript console methods<h1>
+            <p>The JavaScript console is an essential tool for web development. Learn new and fun ways to use the console to display data and debug your code.</p>
+        </div>
+    </div>
+    <div class="secent">
+        <div class="Blog1">
+            <h3>Blog</h3>
+            <h1>Introduction to web sustainability</h1>
+            <p>What can web designers and developers do to build a more sustainable web? This post explores the environmental impacts of web technologies and looks at some of the ways we can build</p>
+        </div>
+        <div class="Blog1">
+            <h3>Web APIs</h3>
+            <h1>CSS Custom Highlight API</h1>
+            <p>The CSS Custom Highlight API provides a mechanism for styling arbitrary text ranges on a document by using JavaScript to create the</p>
+        </div>
+    </div>
+    <div class="headLine">
+        <h1>Latest news</h1>
+    </div>
+    <div class="secentChild">
+    <div class="Blog2">
+        <h3>MDN partners with Scrimba to enhance web development learning</h3>
+        <a href="#">developer.mozilla.org</a>
+        <div class="timar"><text>3 months ago</text></div>
+    </div>
+
+    <div class="Blog3">
+        <h3>Introducing the MDN HTTP Observatory</h3>
+        <a href="#">developer.mozilla.org</a>
+        <div class="timar"><text>3 months ago</text></div>
+    </div>
+
+    <div class="Blog4">
+        <h3>Lift-off: The MDN Curriculum launch</h3>
+        <a href="#">developer.mozilla.org</a>
+        <div class="timar"><text>7 months ago</text></div>
+    </div>
+</div>
+
+<div class="headLine">
+    <h1>Recent contributions</h1>
+</div>
+<div class="secentChild">
+<div class="Blog2">
+    <h3>fix: `Number.prototype.toFixed()` ページの誤字を修正</h3>
+    <a href="#">mdn/translated-content</a>
+    <div class="timar"><text>13 hours ago</text></div>
+</div>
+
+<div class="Blog3">
+    <h3>WebExt: fix missing anchor</h3>
+    <a href="#">mdn/content</a>
+    <div class="timar"><text>15 hours ago</text></div>
+</div>
+
+<div class="Blog4">
+    <h3>Update HTML global attributes link: Global_attributes#** -> Global_attributes/** | part I</h3>
+    <a href="#">mdn/content</a>
+    <div class="timar"><text>15 hours ago</text></div>
+</div>
+</div>
+
+
+<div class="secentChild1">
+    <div class="Blog2">
+        <h3>Fix spelling mistake</h3>
+        <a href="#">mdn/translated-content</a>
+        <div class="timar"><text>15 hours ago</text></div>
+    </div>
+    
+    <div class="Blog3">
+        <h3>Missing declaration</h3>
+        <a href="#">mdn/content</a>
+        <div class="timar"><text>15 hours ago</text></div>
+    </div>
+    
+    <div class="Blog4">
+        <h3>API Reference method page template - add description</h3>
+        <a href="#">mdn/content</a>
+        <div class="timar"><text>16 hours ago</text></div>
+    </div>
+    </div>
+
+    <div class="secentChild1">
+        <div class="Blog2">
+            <h3>[ru] sync translated content</h3>
+            <a href="#">mdn/translated-content</a>
+            <div class="timar"><text>18 hours ago</text></div>
+        </div>
+        
+        <div class="Blog3">
+            <h3>Web/CSS/Using_CSS_custom_properties を更新</h3>
+            <a href="#">mdn/content</a>
+            <div class="timar"><text>19 hours ago</text></div>
+        </div>
+        
+        <div class="Blog4">
+            <h3>Web/CSS/text-overflow を更新</h3>
+            <a href="#">mdn/content</a>
+            <div class="timar"><text>19 hours ago</text></div>
+        </div>
+        </div>
+
+        <div class="secentChild2">
+            <div class="Blog5">
+                <h3>Web/JavaScript/Reference/Global_Objects/Map/entries 他2件を更新</h3>
+                <a href="#">mdn/content</a>
+                <div class="timar"><text>19 hours ago</text></div>
+            </div>
+            </div>
+</div>
+<div class="imgdiv">
+    <img src="/mdnProject/ImgFolder/Untitled copy.png" alt="img">
+    <div class="OnTheimg">
+        <h1>Contributor Spotlight</h1>
+        <button><a href="#">HoChan Lee</a></button>
+        <p>MDN is a large, open community where everyone is welcome. It offers a great opportunity to organize thoughts through writing, while sharing and expanding knowledge by engaging with a diverse group of people throughout the contribution process.</p>
+        <span>Get involved →</span>
+        <img class="secentImg" src="/mdnProject/ImgFolder/mdn.png" alt="img" srcset="">
+    </div>
+    
+</div>
+<div>
+</div>
+<footer>
+    <div class="firstDiv">
+        <div class="svgandothers">
+<svg width="48" height="17" viewBox="0 0 48 17" fill="none" xmlns="http://www.w3.org/2000/svg"><title id="mdn-footer-logo-svg">MDN logo</title><path d="M20.04 16.512H15.504V10.416C15.504 9.488 15.344 8.824 15.024 8.424C14.72 8.024 14.264 7.824 13.656 7.824C12.92 7.824 12.384 8.064 12.048 8.544C11.728 9.024 11.568 9.64 11.568 10.392V14.184H13.008V16.512H8.472V10.416C8.472 9.488 8.312 8.824 7.992 8.424C7.688 8.024 7.232 7.824 6.624 7.824C5.872 7.824 5.336 8.064 5.016 8.544C4.696 9.024 4.536 9.64 4.536 10.392V14.184H6.6V16.512H0V14.184H1.44V8.04H0.024V5.688H4.536V7.32C5.224 6.088 6.32 5.472 7.824 5.472C8.608 5.472 9.328 5.664 9.984 6.048C10.64 6.432 11.096 7.016 11.352 7.8C11.992 6.248 13.168 5.472 14.88 5.472C15.856 5.472 16.72 5.776 17.472 6.384C18.224 6.992 18.6 7.936 18.6 9.216V14.184H20.04V16.512Z" fill="currentColor"></path><path d="M33.6714 16.512H29.1354V14.496C28.8314 15.12 28.3834 15.656 27.7914 16.104C27.1994 16.536 26.4154 16.752 25.4394 16.752C24.0154 16.752 22.8954 16.264 22.0794 15.288C21.2634 14.312 20.8554 12.984 20.8554 11.304C20.8554 9.688 21.2554 8.312 22.0554 7.176C22.8554 6.04 24.0634 5.472 25.6794 5.472C26.5594 5.472 27.2794 5.648 27.8394 6C28.3994 6.352 28.8314 6.8 29.1354 7.344V2.352H26.9754V0H32.2314V14.184H33.6714V16.512ZM29.1354 11.04V10.776C29.1354 9.88 28.8954 9.184 28.4154 8.688C27.9514 8.176 27.3674 7.92 26.6634 7.92C25.9754 7.92 25.3674 8.176 24.8394 8.688C24.3274 9.2 24.0714 10.008 24.0714 11.112C24.0714 12.152 24.3114 12.944 24.7914 13.488C25.2714 14.032 25.8394 14.304 26.4954 14.304C27.3114 14.304 27.9514 13.96 28.4154 13.272C28.8954 12.584 29.1354 11.84 29.1354 11.04Z" fill="currentColor"></path><path d="M47.9589 16.512H41.9829V14.184H43.4229V10.416C43.4229 9.488 43.2629 8.824 42.9429 8.424C42.6389 8.024 42.1829 7.824 41.5749 7.824C40.8389 7.824 40.2709 8.056 39.8709 8.52C39.4709 8.968 39.2629 9.56 39.2469 10.296V14.184H40.6869V16.512H34.7109V14.184H36.1509V8.04H34.5909V5.688H39.2469V7.344C39.9669 6.096 41.1269 5.472 42.7269 5.472C43.7509 5.472 44.6389 5.776 45.3909 6.384C46.1429 6.992 46.5189 7.936 46.5189 9.216V14.184H47.9589V16.512Z" fill="currentColor"></path></svg>
+<h1>Your blueprint for a better internet.</h1>
+<div class="iconLine">
+<img src="/mdnProject/ImgFolder/a.png" alt="img" width="20px">
+<img src="/mdnProject/ImgFolder/b.png" alt="img" width="20px">
+<img src="/mdnProject/ImgFolder/c.png" alt="img" width="20px">
+<img src="/mdnProject/ImgFolder/d.png" alt="img" width="20px">
+</div>
+</div>
+</div>
+<div class="texLine">
+<div class="TextList">
+<pre class="firstPre">
+MDN
+About
+Blog
+Careers
+Advertise with us
+</pre>
+
+<pre class="secentPre">
+Support
+Product help
+Report an issue
+</pre>
+
+<pre class="thartPre">
+Our communities
+MDN Community
+MDN Forum
+MDN Chat
+</pre>
+
+<pre class="ForPre">
+Developers
+Web Technologies
+Learn Web Development
+MDN Plus
+Hacks Blog    
+</pre>
+</div>
+</div>
+
+<div class="LastItem">
+<img src="/mdnProject/ImgFolder/footarImg.png" alt="img" width="100px">
+<p><a href="#">Website Privacy Notice</a>
+    <a href="#">Cookies</a>
+    <a href="#">Legal</a>
+    <a href="#">Community Participation Guidelines</a>
+</p>
+<p class="lestText">Visit <a href="#">Mozilla Corporation</a>’s not-for-profit parent, the <a href="#">Mozilla Foundation.</a> <br>
+    Portions of this content are ©1998–2024 by individual mozilla.org contributors. Content available under <a href="#">a Creative Commons license.</a></p>
+</div>
+</footer>
+
+
+<!-- new Storeg for Responcive-->
+<div class="forResponsiv">
+        <svg class="svgcontrol" id="mdn-docs-logo1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 361 104.2" style="enable-background:new 0 0 361 104.2" xml:space="preserve" role="img"><title>MDN Web Docs</title><path d="M197.6 73.2h-17.1v-5.5h3.8V51.9c0-3.7-.7-6.3-2.1-7.9-1.4-1.6-3.3-2.3-5.7-2.3-3.2 0-5.6 1.1-7.2 3.4s-2.4 4.6-2.5 6.9v15.6h6v5.5h-17.1v-5.5h3.8V51.9c0-3.8-.7-6.4-2.1-7.9-1.4-1.5-3.3-2.3-5.6-2.3-3.2 0-5.5 1.1-7.2 3.3-1.6 2.2-2.4 4.5-2.5 6.9v15.8h6.9v5.5h-20.2v-5.5h6V42.4h-6.1v-5.6h13.4v6.4c1.2-2.1 2.7-3.8 4.7-5.2 2-1.3 4.4-2 7.3-2s5.3.7 7.5 2.1c2.2 1.4 3.7 3.5 4.5 6.4 1.1-2.5 2.7-4.5 4.9-6.1s4.8-2.4 7.9-2.4c3.5 0 6.5 1.1 8.9 3.3s3.7 5.6 3.7 10.2v18.2h6.1v5.5zm42.5 0h-13.2V66c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2s9.8 2.2 12.3 6.5V22.7h-8.6v-5.6h15.8v50.6h6v5.5zm-13.3-16.8V52c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm61.5 16.8H269v-5.5h6V51.9c0-3.7-.7-6.3-2.2-7.9-1.4-1.6-3.4-2.3-5.7-2.3-3.1 0-5.6 1-7.4 3s-2.8 4.4-2.9 7v15.9h6v5.5h-19.3v-5.5h6V42.4h-6.2v-5.6h13.6V43c2.6-4.6 6.8-6.9 12.7-6.9 3.6 0 6.7 1.1 9.2 3.3s3.7 5.6 3.7 10.2v18.2h6v5.4h-.2z" class="logo-text"></path><path d="M42 .2 13.4 92.3H1.7L30.2.2Zm10.4 0v92.1H42V.2Zm40.3 0L64.2 92.3H52.5L81 .2Zm10.4 0v92.1H92.7V.2Z" class="logo-m"></path><path d="M294 95h67v8.8h-67z" class="logo-_"></path></svg>
+
+        
+        <span class="material-symbols-outlined">mode_night</span>
+        <i class='bx bx-x'></i>
+        <a href="#" class="Darkicon">◐</a>
+        <span class="material-symbols-outlined">light_mode</span>
+        <i class='bx bx-chevron-down'></i>
+        <i class='bx bx-search'></i>
+        <img class="secentImg1" src="/mdnProject/ImgFolder/mdn.png" alt="img" srcset="">
+        <img class="Mmimg" src="/mdnProject/ImgFolder/a.png" alt="img" width="20px">
+        <img class="Xximg" src="/mdnProject/ImgFolder/b.png" alt="img" width="20px">
+        <img class="gihtimg" src="/mdnProject/ImgFolder/c.png" alt="img" width="20px">
+        <img class="wifiimg" src="/mdnProject/ImgFolder/d.png" alt="img" width="20px">
+        <img class="mozimg" src="/mdnProject/ImgFolder/footarImg.png" alt="img" width="100px">
+</div>
+<!--navBare Responsiv side -->
+
+<style>
+@media only screen and (max-width: 766px){
+    .navBare{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(66, 219, 19);
+        
+    }
+    .closeBtn2{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #0069C2;
+        overflow-x: hidden;
+    }
+    #open{
+        display: block;
+    }
+    #closebtn.active{
+        width: 100%;
+    }
+#open.hide{
+    display: none;
+}
+}
+</style>
+
+<script>
+  function openSidebar(){
+    document.getElementById("closebtn").classList.add("active");
+    document.getElementById("open").classList.add("hide");
+  } 
+  function CloseBtn(){
+    document.getElementById("closebtn").classList.remove("active");
+    document.getElementById("open").classList.remove("hide");
+
+  }
+</script>
+
+
+
+<script>
+// const toggleButton = document.getElementBy('window');
+// const windowDiv = document.getElementById('toggle-window');
+// // বাটনে ক্লিক করলে উইন্ডো শো/হাইড হবে
+// toggleButton.addEventListener('click', function() {
+// windowDiv.classList.toggle('hidden');
+// });
+
+// const searchBar = document.getElementById('search-bar');
+// // সার্চ বারের উপর ক্লিক করলে বড় হবে
+// searchBar.addEventListener('click', function() {
+// searchBar.classList.add('expanded');
+// });
+// // বাইরে ক্লিক করলে ছোট হয়ে যাবে
+// document.addEventListener('click', function(event) {
+// if (!searchBar.contains(event.target)) {
+// searchBar.classList.remove('expanded');
+// }
+// });
+
+
+function system(){
+        const toggleWindow=document.getElementById("toggleWindow");
+        const arrow=document.querySelector(".Arrow")
+        toggleWindow.classList.toggle("Show");
+        arrow.classList.toggle("Up")
+        }
+
+//**new
+
+
+// Button warp
+function dwon(){
+const togglewindow1=document.getElementById("togglewindow1");
+const arrow=document.querySelector(".arrow")
+togglewindow1.classList.toggle("show");
+arrow.classList.toggle("up")
+    }
+    </script>
+</body>
+</html>
